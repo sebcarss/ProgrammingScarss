@@ -18,9 +18,9 @@
 				
 				if ($user->login($username, $password) == true) {
 					if (isset($_GET['redirect']) && $_GET['redirect'] == 'account') {
-						header('Location: /account.php'); // Redirect to the account page
+						header('Location: account.php'); // Redirect to the account page
 					} else {
-						header('Location: /'); // Redirect to the homepage
+						header('Location: index.php'); // Redirect to the homepage
 					}
 					
 					exit;

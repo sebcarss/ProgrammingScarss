@@ -6,7 +6,7 @@
 		
 		<?php
 			if ($user->is_logged_in()) {
-				header('Location: /index.php?alreadyLoggedIn=true');
+				header('Location: index.php?alreadyLoggedIn=true');
 			}
 			
 			if (isset($_POST['submit'])) {
@@ -14,7 +14,7 @@
 				if ($db->registerNewUserfromPost() ==  true) {
 					// login as user
                     if ($user->login($_POST['username'], $_POST['password']) == true) {    
-						header('Location: /'); // Redirect to the homepage
+						header('Location: index.php'); // Redirect to the homepage
                     }
 				}
 			}
