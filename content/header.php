@@ -1,14 +1,13 @@
-<h1>Programming Scarss</h1>
-<p>I don't want to die without any scars - Fight Club</p>
+<h1><span class="title-bracket">{</span><span class="title-name">Programming Scarss</span><span class="title-bracket">}</span></h1>
 <p>
-	<a href="index.php">Home</a>
     <?php
+		/*echo '<a href="index.php">Home</a>';
         if (!$user->is_logged_in()) {
             echo '<a href="login.php">Sign In</a>';
         } else {
             echo '<a href="logout.php">Sign Out</a>';
         }
+		echo '<a href="register.php">Register</a> ';
+		echo '<a href="account.php">Account</a>';*/
     ?>
-	<a href="register.php">Register</a>
-    <a href="account.php">Account</a>
 </p>
