@@ -1,0 +1,36 @@
+body {
+    background-color: #e5f2ff;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Courier New";
+    height: 100px;
+    background-color: #ddddff;
+}
+
+h1 #header-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 .title-bracket {
+    color: #003366;
+}
+
+h1 .title-name {
+    color: #e68a00;
+}
+
+p {
+    font-family: "Courier New";
+    font-size: 20px;
+}
+
+#content-window {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    height: 100%;
+}

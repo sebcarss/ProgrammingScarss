@@ -1,40 +1,3 @@
-body {
-    background-color: #e5f2ff;
-}
-
-h1 {
-    text-align: center;
-    font-family: "Courier New";
-    height: 100px;
-    background-color: #ddddff;
-}
-
-h1 #header-text {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-h1 .title-bracket {
-    color: #003366;
-}
-
-h1 .title-name {
-    color: #e68a00;
-}
-
-p {
-    font-family: "Courier New";
-    font-size: 20px;
-}
-
-#content-window {
-    margin: auto;
-    width: 90%;
-    padding: 10px;
-    height: 100%;
-}
-
 ul {
     list-style: none;
 }
@@ -48,7 +11,7 @@ ul li {
     height: 400px;
 }
 
-a {
+ul li a {
     display: block;
     background-color: #dddddd;
     padding: 20px;
@@ -57,23 +20,23 @@ a {
 }
 
 
-a:link {
+ul li a:link {
     color: #e68a00;
     text-decoration: none;
 }
 
-a:visited {
+ul li a:visited {
     color: #e68a00;
     text-decoration: none;
 }
 
-a:hover {
+ul li a:hover {
     background-color: #cccccc;
     color: #b36b00;
     text-decoration: none;
 }
 
-a:active {
+ul li a:active {
     color: #e68a00;
     text-decoration: none;
 }

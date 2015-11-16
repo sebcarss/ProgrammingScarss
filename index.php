@@ -1,8 +1,6 @@
-<?php require_once('includes/config.php'); ?>
 <html>
 	<title>{ Programming Scarss }</title>
 	<body>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/homepage.css" type="text/css" />
 		<?php include 'content/header.php'; ?>
 		
