@@ -16,7 +16,7 @@
 		
 		<div id="content-window">
 			<ul>
-				<div id="links-list">
+				<div class="links-list">
 					<li>
 						<span class="homepage-icon">
 							<a href="blog.php">

@@ -1,8 +1,10 @@
 #content-window ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-#links-list {
+.links-list {
     display: block;
     width: 570px;
     margin: auto;
@@ -43,4 +45,5 @@
 
 .homepage-icon {
     text-align: center;
+    font-weight: bold;
 }
