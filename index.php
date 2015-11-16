@@ -2,6 +2,7 @@
 <html>
 	<title>{ Programming Scarss }</title>
 	<body>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/homepage.css" type="text/css" />
 		<?php include 'content/header.php'; ?>
 		
@@ -17,7 +18,7 @@
 		
 		<div id="content-window">
 			<ul>
-				<li class="content-segment">
+				<li>
 					<span class="homepage-icon" id="blog-icon">
 						<a href="blog.php">
 							<img src="images/blog.png" alt="Blog" height="128" width="128">
@@ -27,7 +28,7 @@
 					</span>
 				</li>
 				
-				<li class="content-segment">
+				<li>
 					<span class="homepage-icon" id="cv-icon">
 						<a href="cv.php">
 							<img src="images/cv.png" alt="CV" height="128" width="128">
@@ -38,7 +39,7 @@
 					</span>
 				</li>
 				
-				<li class="content-segment">
+				<li>
 					<span class="homepage-icon" id="projects-icon">
 						<a href="projects.php">
 							<img src="images/projects.png" alt="Programming Projects" height="128" width="128">
@@ -48,7 +49,7 @@
 					</span>
 				</li>
 				
-				<li class="content-segment">
+				<li>
 					<span class="homepage-icon" id="music-icon">
 						<a href="music.php">
 							<img src="images/music.png" alt="Music" height="128" width="128">

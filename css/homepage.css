@@ -5,6 +5,14 @@ body {
 h1 {
     text-align: center;
     font-family: "Courier New";
+    height: 100px;
+    background-color: #ddddff;
+}
+
+h1 #header-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 h1 .title-bracket {
@@ -24,15 +32,11 @@ p {
     margin: auto;
     width: 90%;
     padding: 10px;
-}
-
-.content-segment {
-    
+    height: 100%;
 }
 
 ul {
     list-style: none;
-    margin: auto;
 }
 
 ul li {
@@ -40,7 +44,6 @@ ul li {
     margin: 25px;
     width: 300px;
     float: left;
-    border: 1px solid navy;
     width: 300px;
     height: 400px;
 }
@@ -73,8 +76,4 @@ a:hover {
 a:active {
     color: #e68a00;
     text-decoration: none;
-}
-
-.homepage-icon {
-
 }

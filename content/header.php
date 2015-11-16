@@ -1,4 +1,10 @@
-<h1><span class="title-bracket">{</span><span class="title-name">Programming Scarss</span><span class="title-bracket">}</span></h1>
+<h1>
+	<div id="header-text">
+		<span class="title-bracket">{</span>
+		<span class="title-name">Programming Scarss</span>
+		<span class="title-bracket">}</span>
+	</div>
+</h1>
 <p>
     <?php
 		/*echo '<a href="index.php">Home</a>';
