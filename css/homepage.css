@@ -1,13 +1,15 @@
 #content-window ul {
     list-style: none;
-    margin: 0 auto;
+}
+
+#links-list {
     display: block;
-    width: 70%;
+    width: 570px;
+    margin: auto;
 }
 
 #content-window ul li {
     padding: 10px;
-    margin: auto;
     float: left;
 }
 

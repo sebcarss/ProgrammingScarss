@@ -43,15 +43,6 @@
 							</a>
 						</span>
 					</li>
-					
-					<li class="clear-right">
-						<span class="homepage-icon">
-							<a href="music.php">
-								<img src="images/music.png" alt="Music" height="128" width="128">
-								<p>Music</p>
-							</a>
-						</span>
-					</li>
 				</div>
 			</ul>
 		</div>
