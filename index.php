@@ -16,47 +16,43 @@
 		
 		<div id="content-window">
 			<ul>
-				<li>
-					<span class="homepage-icon" id="blog-icon">
-						<a href="blog.php">
-							<img src="images/blog.png" alt="Blog" height="128" width="128">
-							<p>Blog</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae interdum erat.</p>	
-						</a>
-					</span>
-				</li>
-				
-				<li>
-					<span class="homepage-icon" id="cv-icon">
-						<a href="cv.php">
-							<img src="images/cv.png" alt="CV" height="128" width="128">
-							<p>CV</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae interdum erat.
-							Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-						</a>
-					</span>
-				</li>
-				
-				<li>
-					<span class="homepage-icon" id="projects-icon">
-						<a href="projects.php">
-							<img src="images/projects.png" alt="Programming Projects" height="128" width="128">
-							<p>Programming Projects</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						</a>
-					</span>
-				</li>
-				
-				<li>
-					<span class="homepage-icon" id="music-icon">
-						<a href="music.php">
-							<img src="images/music.png" alt="Music" height="128" width="128">
-							<p>Music</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae interdum erat.
-							Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam at tellus.</p>
-						</a>
-					</span>
-				</li>
+				<div id="links-list">
+					<li>
+						<span class="homepage-icon">
+							<a href="blog.php">
+								<img src="images/blog.png" alt="Blog" height="128" width="128">
+								<p>Blog</p>
+							</a>
+						</span>
+					</li>
+					
+					<li>
+						<span class="homepage-icon">
+							<a href="cv.php">
+								<img src="images/cv.png" alt="CV" height="128" width="128">
+								<p>CV</p>
+							</a>
+						</span>
+					</li>
+					
+					<li>
+						<span class="homepage-icon">
+							<a href="projects.php">
+								<img src="images/projects.png" alt="Programming Projects" height="128" width="128">
+								<p>Projects</p>
+							</a>
+						</span>
+					</li>
+					
+					<li class="clear-right">
+						<span class="homepage-icon">
+							<a href="music.php">
+								<img src="images/music.png" alt="Music" height="128" width="128">
+								<p>Music</p>
+							</a>
+						</span>
+					</li>
+				</div>
 			</ul>
 		</div>
 		

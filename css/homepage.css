@@ -1,42 +1,44 @@
-ul {
+#content-window ul {
     list-style: none;
+    margin: 0 auto;
+    display: block;
+    width: 70%;
 }
 
-ul li {
-    padding: 0px;
-    margin: 25px;
-    width: 300px;
+#content-window ul li {
+    padding: 10px;
+    margin: auto;
     float: left;
-    width: 300px;
-    height: 400px;
 }
 
-ul li a {
+#content-window ul li a {
     display: block;
     background-color: #dddddd;
     padding: 20px;
-    width: 260px;
-    height: 360px;
 }
 
 
-ul li a:link {
+#content-window ul li a:link {
     color: #e68a00;
     text-decoration: none;
 }
 
-ul li a:visited {
+#content-window ul li a:visited {
     color: #e68a00;
     text-decoration: none;
 }
 
-ul li a:hover {
+#content-window ul li a:hover {
     background-color: #cccccc;
     color: #b36b00;
     text-decoration: none;
 }
 
-ul li a:active {
+#content-window ul li a:active {
     color: #e68a00;
     text-decoration: none;
+}
+
+.homepage-icon {
+    text-align: center;
 }
