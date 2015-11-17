@@ -8,6 +8,7 @@
     width: 100%;
     position: relative;
     right: 70%;
+    border-right: solid 1px #008080;
 }
 
 .rightcontainer {
@@ -26,6 +27,7 @@
 
 .leftcontent h2 {
     color: #008080;
+    text-align: right;
 }
 
 .rightcontent {
