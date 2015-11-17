@@ -3,18 +3,25 @@
     /*display: inline-block;*/
 }
 
-.segment {
-    border: solid 1px navy;
-    display: inline-block;
+.leftcontainer {
+    float: left;
+    width: 100%;
+    position: relative;
+    right: 70%;
 }
 
-.leftcontent {
-    border-right: solid 1px #008080;
-    /*background-color: #99ee99;*/
-    width: 200px;
+.rightcontainer {
     float: left;
-    clear: left;
+    width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+.leftcontent {    
+    float: left;
+    width: 26%;
+    position: relative;
+    left: 72%;
 }
 
 .leftcontent h2 {
@@ -22,10 +29,8 @@
 }
 
 .rightcontent {
-    /*border: solid 1px green;*/
-    /*background-color: #88ff88;*/
-    width: 600px;
     float: left;
-    margin: auto 10;
-    overflow: hidden;
+    width: 64%;
+    position: relative;
+    left: 76%;
 }
