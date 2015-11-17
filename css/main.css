@@ -1,12 +1,12 @@
 body {
-    background-color: #e5f2ff;
+    background-color: #d3d3d3;
 }
 
 h1 {
     text-align: center;
     font-family: "Courier New";
     height: 100px;
-    background-color: #ddddff;
+    background-color: #808080;
 }
 
 h1 #header-text {
@@ -16,11 +16,11 @@ h1 #header-text {
 }
 
 h1 .title-bracket {
-    color: #003366;
+    color: #008080;
 }
 
 h1 .title-name {
-    color: #e68a00;
+    color: #008080;
 }
 
 p {

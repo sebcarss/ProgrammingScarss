@@ -3,19 +3,29 @@
     /*display: inline-block;*/
 }
 
+.segment {
+    border: solid 1px navy;
+    display: inline-block;
+}
+
 .leftcontent {
-    /*border: solid 1px red;*/
+    border-right: solid 1px #008080;
     /*background-color: #99ee99;*/
-    /*width: 200px;*/
-    /*float: left;*/
-    /*clear: left;*/
+    width: 200px;
+    float: left;
+    clear: left;
+    overflow: hidden;
+}
+
+.leftcontent h2 {
+    color: #008080;
 }
 
 .rightcontent {
     /*border: solid 1px green;*/
     /*background-color: #88ff88;*/
-    /*min-width: 400px;*/
-    /*width: auto;*/
-    /*float: left;*/
-    /*margin: auto;*/
+    width: 600px;
+    float: left;
+    margin: auto 10;
+    overflow: hidden;
 }
