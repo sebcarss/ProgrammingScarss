@@ -1,0 +1,21 @@
+#content-window {
+    /*border: solid 1px navy;*/
+    /*display: inline-block;*/
+}
+
+.leftcontent {
+    /*border: solid 1px red;*/
+    /*background-color: #99ee99;*/
+    /*width: 200px;*/
+    /*float: left;*/
+    /*clear: left;*/
+}
+
+.rightcontent {
+    /*border: solid 1px green;*/
+    /*background-color: #88ff88;*/
+    /*min-width: 400px;*/
+    /*width: auto;*/
+    /*float: left;*/
+    /*margin: auto;*/
+}
