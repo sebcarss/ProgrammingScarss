@@ -31,7 +31,21 @@
 				<h2>{ contact details }</h2>
 			</div>
 			<div class="rightcontent">
-				<p>lorem ipsum</p>
+				<div>
+					<span>Seb Carss</span>
+				</div>
+				
+				<div>
+					<span>07877408079</span>
+				</div>
+				
+				<div>
+					<span><a href="mailto:seb.carss@gmail.com" target="_top">seb.carss@gmail.com</a></span>
+				</div>
+				
+				<div>
+					<span><a href="http://www.programmingscarss.co.uk">www.programmingscarss.co.uk</a></span>
+				</div>
 			</div>
 			
 			<div class="leftcontent">
