@@ -4,7 +4,8 @@
         private $usersCollection;
         
         function __construct($databaseName) {
-            $m = new MongoClient();
+			$server = "mongodb://localhost:27017/";
+            $m = new MongoClient($server);
             $this->db = $m->selectDB($databaseName);
             $this->usersCollection = new MongoCollection($this->db, 'users');
         }

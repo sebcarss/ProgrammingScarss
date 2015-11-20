@@ -36,3 +36,97 @@
     position: relative;
     left: 76%;
 }
+
+.item {
+    position: relative;
+    float: left;
+}
+
+.item h2 {
+    text-align: center;
+    position: absolute;
+    line-height: 155px;
+    width: 100%;
+}
+
+svg {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.circle_animation {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.java .circle_animation {
+    -webkit-animation: java 1s ease-out forwards;
+    animation: java 1s ease-out forwards;
+}
+
+.javascript .circle_animation {
+    -webkit-animation: javascript 1s ease-out forwards;
+    animation: javascript 1s ease-out forwards;
+}
+
+.css .circle_animation {
+    -webkit-animation: css 1s ease-out forwards;
+    animation: css 1s ease-out forwards;
+}
+
+.sql .circle_animation {
+    -webkit-animation: sql 1s ease-out forwards;
+    animation: sql 1s ease-out forwards;
+}
+
+@-webkit-keyframes java {
+    to {
+        /*90% = 440-((440/100)*90)*/
+        stroke-dashoffset: 44;
+    }
+}
+
+@keyframes java {
+    to {
+        stroke-dashoffset: 44;
+    }
+}
+
+@-webkit-keyframes javascript {
+    to {
+        /*90% = 440-((440/100)*90)*/
+        stroke-dashoffset: 154;
+    }
+}
+
+@keyframes javascript {
+    to {
+        stroke-dashoffset: 154;
+    }
+}
+
+@-webkit-keyframes css {
+    to {
+        /*90% = 440-((440/100)*90)*/
+        stroke-dashoffset: 220;
+    }
+}
+
+@keyframes css {
+    to {
+        stroke-dashoffset: 220;
+    }
+}
+
+@-webkit-keyframes sql {
+    to {
+        /*90% = 440-((440/100)*90)*/
+        stroke-dashoffset: 110;
+    }
+}
+
+@keyframes sql {
+    to {
+        stroke-dashoffset: 110;
+    }
+}
