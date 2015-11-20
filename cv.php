@@ -79,38 +79,38 @@
 					</div>
 					<div class="rightcontent">
 						<div class="item java">
-							<h2>Java</h2>
+							<h3>Java</h3>
 							<svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
 								<g>
 									<title>Layer 1</title>
-									<circle id="circle" class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#6fdb6f" fill="none" />
+									<circle id="circle" class="circle_animation" r="50" cy="81" cx="81" stroke-width="8" stroke="#6fdb6f" fill="none" />
 								</g>
 							</svg>
 						</div>
 						<div class="item javascript">
-							<h2>JavaScript</h2>
+							<h3>JavaScript</h3>
 							<svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
 								<g>
 									<title>Layer 1</title>
-									<circle id="circle" class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#69aff4" fill="none" />
+									<circle id="circle" class="circle_animation" r="50" cy="81" cx="81" stroke-width="8" stroke="#69aff4" fill="none" />
 								</g>
 							</svg>
 						</div>
 						<div class="item css">
-							<h2>CSS</h2>
+							<h3>CSS</h3>
 							<svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
 								<g>
 									<title>Layer 1</title>
-									<circle id="circle" class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#f4af69" fill="none" />
+									<circle id="circle" class="circle_animation" r="50" cy="81" cx="81" stroke-width="8" stroke="#f4af69" fill="none" />
 								</g>
 							</svg>
 						</div>
 						<div class="item sql">
-							<h2>PL/SQL</h2>
+							<h3>PL/SQL</h3>
 							<svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
 								<g>
 									<title>Layer 1</title>
-									<circle id="circle" class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#f46969" fill="none" />
+									<circle id="circle" class="circle_animation" r="50" cy="81" cx="81" stroke-width="8" stroke="#f46969" fill="none" />
 								</g>
 							</svg>
 						</div>
