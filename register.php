@@ -5,7 +5,7 @@
 		<?php include 'content/header.php'; ?>
 		
 		<?php
-			if ($user->is_logged_in()) {
+			/*if ($user->is_logged_in()) {
 				header('Location: index.php?alreadyLoggedIn=true');
 			}
 			
@@ -17,7 +17,7 @@
 						header('Location: index.php'); // Redirect to the homepage
                     }
 				}
-			}
+			}*/
 		?>
         
 		<h2>Register</h2>

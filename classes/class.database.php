@@ -4,10 +4,14 @@
         private $usersCollection;
         
         function __construct($databaseName) {
-			$server = "mongodb://localhost:27017/";
-            $m = new MongoClient($server);
-            $this->db = $m->selectDB($databaseName);
-            $this->usersCollection = new MongoCollection($this->db, 'users');
+			try {
+				$server = "mongodb://localhost:27017/";
+				$m = new MongoClient($server);
+				$this->db = $m->selectDB($databaseName);
+				$this->usersCollection = new MongoCollection($this->db, 'users');
+			} catch (MongoException $e) {
+				// Supposedly this happens all the time???
+			}
         }
         
         public function findUser($username, $password) {

@@ -2,7 +2,7 @@
     session_start();
     
     // Connect to database
-    $db = new Database('programmingscarss');
+    //$db = new Database('programmingscarss');
     
     // Autolaod the classes as they are called
     function __autoload($class) {
@@ -20,5 +20,5 @@
     }
     
     // Create user in session
-    $user = new User($db);
+    //$user = new User($db);
 ?>
