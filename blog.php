@@ -1,10 +1,18 @@
+<?php require_once('includes/config.php'); ?>
 <html>
     <head>
         <title>Programming Scarss</title>
     </head>
     <body>
         <div class="post">
-            <a href="blog/test-post.php">Test Post</a>
+            <?php
+                $posts = $db->getLatestPosts();
+                
+                foreach ($posts as $doc) {
+                    echo '<a href="blog/' . $doc['permalink'] . '.php">' . $doc['title'] . '</a>';
+                    echo '<p>' . $doc['blurb'] . '</p>';
+                }
+            ?>
         </div>
     </body>
 </html>
