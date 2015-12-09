@@ -7,7 +7,7 @@
 			$server = "mongodb://localhost:27017/";
 			$m = new MongoClient($server);
 			$this->db = $m->selectDB($databaseName);
-			$this->postsCollection = $this->db->selectCollection('posts');
+			$this->postsCollection = $this->db->selectCollection('testposts');
         }
 		
 		public function getLatestPosts() {
