@@ -15,6 +15,10 @@
 			$cursor->limit(10);
 			return $cursor;
 		}
+		
+		public function getPostByPermalink($permalink) {
+			// TODO Get the post based on the permalink and return it
+		}
         
         public function findUser($username, $password) {
             // Find the user in the database from the unique username

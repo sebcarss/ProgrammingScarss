@@ -10,24 +10,19 @@
     });
     
     Flight::route('GET /blog.php', function() {
-       
-        //$posts = $db->getLatestPosts();
-        //
-        //foreach ($posts as $doc) {
-        //    echo '<div class="post">';
-        //    echo '<a href="blog/' . $doc['permalink'] . '.php">' . $doc['title'] . '</a>';
-        //    echo '<p>' . $doc['blurb'] . '</p>';
-        //    echo '</div>';
-        //}
-       
-        Flight::render('blog', array());
+        // Connect to database
+        //$db = new DB('programmingscarss');
+        $db = new DB('test'); // Converted to test to test the test posts from the testposts collection
+        $posts = $db->getLatestPosts();
+        Flight::render('blog', array('posts' => $posts));
+    });
+    
+    Flight::route('GET /blog/@permalink', function($permalink) {
+        
+        Flight::render('post', array('permalink' => $permalink));
     });
     
     Flight::start();
-    
-    // Connect to database
-    //$db = new DB('programmingscarss');
-    $db = new DB('test'); // Converted to test to test the test posts from the testposts collection
     
     // Create user in session
     //$user = new User($db);

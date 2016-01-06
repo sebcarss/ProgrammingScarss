@@ -1,9 +1,7 @@
+<?php require_once('includes/config.php'); ?>
 <html>
-    <head>
-        <title>Programming Scarss</title>
-    </head>
     <body>
-        <h1>Test Post</h1>
+        <h1><?php echo $permalink ?></h1>
         <div class="postdate">
             10th September 2015
         </div>

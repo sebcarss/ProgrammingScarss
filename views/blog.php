@@ -8,7 +8,14 @@
             Blog Posts
         </div>
         <div class="posts">
-            Testing
+            <?php
+                foreach ($posts as $doc) {
+                    echo '<div class="post">';
+                    echo '<a href="blog/' . $doc['permalink'] . '.php">' . $doc['title'] . '</a>';
+                    echo '<p>' . $doc['blurb'] . '</p>';
+                    echo '</div>';
+                }
+            ?>
         </div>
     </body>
 </html>
