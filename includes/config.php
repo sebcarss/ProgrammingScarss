@@ -10,7 +10,17 @@
     });
     
     Flight::route('GET /blog.php', function() {
-        echo 'You are on the blog home page';
+       
+        //$posts = $db->getLatestPosts();
+        //
+        //foreach ($posts as $doc) {
+        //    echo '<div class="post">';
+        //    echo '<a href="blog/' . $doc['permalink'] . '.php">' . $doc['title'] . '</a>';
+        //    echo '<p>' . $doc['blurb'] . '</p>';
+        //    echo '</div>';
+        //}
+       
+        Flight::render('blog', array());
     });
     
     Flight::start();
