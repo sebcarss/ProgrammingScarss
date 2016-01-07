@@ -6,7 +6,9 @@
     session_start();
     
     Flight::route('GET /', function() {
-        echo 'You are on the home page';
+        $db = new DB('test'); // Converted to test to test the test posts from the testposts collection
+        $posts = $db->getLatestPosts();
+        Flight::render('homepage', array());
     });
     
     Flight::route('GET /blog.php', function() {
