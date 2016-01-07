@@ -11,7 +11,7 @@
         Flight::render('homepage', array());
     });
     
-    Flight::route('GET /blog.php', function() {
+    Flight::route('GET /blog', function() {
         // Connect to database
         //$db = new DB('programmingscarss');
         $db = new DB('test'); // Converted to test to test the test posts from the testposts collection
